@@ -1,0 +1,63 @@
+.Home {
+  background-image: url('../../imagem/bk-home-1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  width: 100vw;
+  height: 100vh;
+  padding: 0 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home-header {
+  padding: 15px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.h1-logo {
+  color: orange;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.home-list {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.home-list-link {
+  color: #fff;
+  font-weight: 500;
+}
+
+.home-intro {
+  width: 70%;
+  color: #fff;
+}
+
+.h2-home-intro{
+  font-size: 5rem;
+}
+.home-intro-p{
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+
+}
+
+.home-intro-button{
+  padding: 8px 26px;
+  font-size: 1.1rem;
+  background-color: orange;
+  border: none;
+  border-radius: 7px;
+}
+
+.vazio{
+  height: 66px;
+}
